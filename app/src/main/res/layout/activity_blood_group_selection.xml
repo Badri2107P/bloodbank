@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.blackdev.bloodbank_college.Blood_group_selection">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/selectbloodtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:fontFamily="monospace"
+            android:text="Select The Blood Group"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+        <Spinner
+           android:id="@+id/needbloodip"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:entries="@array/bldgroup_arrays"
+           android:layout_marginBottom="8dp"
+           android:layout_marginTop="8dp"
+           android:prompt="@string/bldgroup"/>
+
+        <TextView
+            android:id="@+id/selectdistricttext"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:fontFamily="monospace"
+            android:text="Choose Your District"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+        <Spinner
+            android:id="@+id/needdistrictip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/district_arrays"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:prompt="@string/district"/>
+
+
+       <!-- Signup Button -->
+       <android.support.v7.widget.AppCompatButton
+           android:id="@+id/btn_needblood"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="24dp"
+           android:layout_marginBottom="24dp"
+           android:padding="12dp"
+           android:text="Find Donors"/>
+
+
+   </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

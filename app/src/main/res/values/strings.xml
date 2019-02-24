@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">blood CARE</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="bldgroup">Choose the blood group </string>
+    <string name="district">Choose the District </string>
+
+    <string-array name="bldgroup_arrays">
+        <item>O+ve</item>
+        <item>O-ve</item>
+        <item>AB+ve</item>
+        <item>AB-ve</item>
+        <item>A+ve</item>
+        <item>B+ve</item>
+        <item>A-ve</item>
+        <item>B-ve</item>
+    </string-array>
+
+    <string-array name="district_arrays">
+        <item>Ariyalur</item>
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Cuddalore</item>
+        <item>Dharmapuri</item>
+        <item>Dindigul</item>
+        <item>Erode</item>
+        <item>Kanchipuram</item>
+        <item>Kanyakumari</item>
+        <item>Karur</item>
+        <item>Krishnagiri</item>
+        <item>Madurai</item>
+        <item>Nagapattinam</item>
+        <item>Namakkal</item>
+        <item>Perambalur</item>
+        <item>Pudukkottai</item>
+        <item>Ramanathapuram</item>
+        <item>Salem</item>
+        <item>Sivaganga</item>
+        <item>Thanjavur</item>
+        <item>The Nilgiris</item>
+        <item>Theni</item>
+        <item>Thoothukudi</item>
+        <item>Tiruchirappalli</item>
+        <item>Tirunelveli</item>
+        <item>Tiruppur</item>
+        <item>Tiruvallur</item>
+        <item>Tiruvannamalai</item>
+        <item>Tiruvarur</item>
+        <item>Vellore</item>
+        <item>Viluppuram</item>
+        <item>Virudhunagar</item>
+    </string-array>
+</resources>
